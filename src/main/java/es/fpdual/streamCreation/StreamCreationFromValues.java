@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 
 import es.fpdual.model.Student;
 
-public class StreamCrationFromValues {
+public class StreamCreationFromValues {
     public static void main(String[] args) {
         // One Value
         Stream<String> titleStream = Stream.of("Coding Bootcamp");
