@@ -18,6 +18,7 @@ public class StreamCreationFromStrings {
         String input = sc.nextLine();
         IntStream charStream = input.chars();
         charStream.forEach(System.out::println);
+        sc.close();
 
         charStream.filter(ch -> !Character.isDigit((char) ch)
                 && !Character.isWhitespace((char) ch))
