@@ -35,10 +35,10 @@ public class StreamCreationFromArrayAndCollections {
 
         // Object List
         List<Employee> employeetList = new ArrayList<>();
-        employeetList.add(new Employee("Juan", "González", 24, 26.5));
-        employeetList.add(new Employee("Pepe", "Gómez", 20, 22.8));
-        employeetList.add(new Employee("Francisco", "Veragua", 22, 29.5));
-        employeetList.add(new Employee("Laura", "Serrano", 25, 26.7));
+        employeetList.add(new Employee("Juan", "González", 1997, 26.5));
+        employeetList.add(new Employee("Pepe", "Gómez", 2001, 22.8));
+        employeetList.add(new Employee("Francisco", "Veragua", 1999, 29.5));
+        employeetList.add(new Employee("Laura", "Serrano", 1996, 26.7));
 
         Stream<Employee> employeeStream = employeetList.parallelStream();
         employeeStream.forEach(e -> System.out.println(e.getName()));
