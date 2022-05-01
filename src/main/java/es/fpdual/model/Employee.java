@@ -8,7 +8,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Employee {
+public class Employee implements Comparable {
     private String dni;
     private String name;
     private String surname;
@@ -49,6 +49,11 @@ public class Employee {
                 new Employee("29834363M", "Adriana", "Marques", 1979, 16500, Gender.FEMALE),
                 new Employee("29834363M", "Josep Maria", "Muñiz", 1966, 19300, Gender.MALE));
 
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return this.getName().compareTo(((Employee) o).getName());
     }
 
 }
