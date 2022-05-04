@@ -11,7 +11,6 @@ import java.util.function.IntBinaryOperator;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import es.fpdual.model.Employee;
 
 public class ReduceOp {
     public static void main(String[] args) {
