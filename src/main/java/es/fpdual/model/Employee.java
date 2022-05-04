@@ -41,13 +41,13 @@ public class Employee implements Comparable {
                 new Employee("46799396P", "Isabel María", "Peña", 1983, 20000, Gender.FEMALE),
                 new Employee("16199070D", "Adoracion", "Castaño", 2000, 15000, Gender.FEMALE),
                 new Employee("10492815P", "Manuel Antonio", "Santana", 1959, 19000, Gender.MALE),
-                new Employee("94131590L", "Eulalia", "Velez", 1989, 20000, Gender.FEMALE),
+                new Employee("Y2037641Q", "Eulalia", "Velez", 1989, 20000, Gender.FEMALE),
                 new Employee("77748087Z", "Dario", "Menendez", 1954, 19000, Gender.MALE),
                 new Employee("56854055X", "Maria Lourdes", "Blasco", 1958, 23000, Gender.FEMALE),
-                new Employee("56854055X", "Diana", "Muñoz", 1958, 15200, Gender.FEMALE),
+                new Employee("53586060Q", "Diana", "Muñoz", 1958, 15200, Gender.FEMALE),
                 new Employee("37853127A", "Ferran", "Barbero", 1989, 25000, Gender.FEMALE),
                 new Employee("29834363M", "Adriana", "Marques", 1979, 16500, Gender.FEMALE),
-                new Employee("29834363M", "Josep Maria", "Muñiz", 1966, 19300, Gender.MALE));
+                new Employee("45096529S", "Josep Maria", "Muñiz", 1966, 19300, Gender.MALE));
 
     }
 
